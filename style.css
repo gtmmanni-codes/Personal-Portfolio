@@ -1,0 +1,39 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+/**nav bar**/
+.nav-bar{
+    display: flex;
+    height: 4rem;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+
+
+}
+.nav-photo{
+    background-image: url(/photo/360_F_373168623_jTLasKYUB5Li0g5dI6uemZywfICeiZTI.jpg);
+    height: 3.5rem;
+    width: 3.9rem;
+    background-size: cover;
+}
+.nav-buttons{
+    padding: left 70%;
+}
+
+/**main**/
+.hero{
+    display: flex;
+    border: 2px solid black;
+}
+.hero-projects{
+    border: 2px solid black;
+
+}
+.hero-work{
+    border: 2px solid black;
+}
+.hero-education{
+    border: 2px solid black;
+}
