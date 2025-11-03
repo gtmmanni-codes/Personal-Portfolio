@@ -19,7 +19,7 @@
     background-size: cover;
 }
 .nav-buttons{
-    padding: left 70%;
+    padding-left: 70%;
 }
 
 /**main**/
@@ -27,13 +27,23 @@
     display: flex;
     border: 2px solid black;
 }
+.main-heading{
+    height: 17rem;
+    align-content: center;
+    margin-left: 50%;
+    font-size: x-large;
+
+}
 .hero-projects{
     border: 2px solid black;
+    width: 33%;
 
 }
 .hero-work{
     border: 2px solid black;
+    width: 33%;
 }
 .hero-education{
     border: 2px solid black;
+    width: 33%;
 }
