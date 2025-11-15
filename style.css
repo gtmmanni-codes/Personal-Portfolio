@@ -34,6 +34,10 @@
     font-size: x-large;
 
 }
+.main-text{
+    width: 100%;
+    text-align: center;
+}
 .hero-projects{
     border: 2px solid black;
     width: 33%;
@@ -53,10 +57,14 @@ ul{
 
 
 /**footer**/
+
+footer-heading h4{
+    margin-left : 20px;
+}
 .footer-review{
     display: flex;
-    height: 200px;
-    
+    height: 250px;
+    align-items: center;
     
     justify-content: space-evenly;
     
@@ -65,15 +73,77 @@ ul{
 }
 
 .box{
-    
+    width: 250px;
+    height: 180px;
     border: 2px solid black;
     border-radius: 20%;
     margin: 20px;
-    text-align: center;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     
     align-content: space-evenly;
     
     
 
 }
+.copyright{
+    height: 500px;
+    width: 500px;
+    align-content:flex-start;
+    justify-items: center;
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+
+
+
+/* Mobile layout */
+@media (max-width: 768px) {
+
+    /* NAV BAR */
+    .nav-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 10px;
+    }
+
+    .nav-buttons {
+        padding-left: 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-projects,
+    .hero-work,
+    .hero-education {
+        width: 100%;
+    }
+
+    /* FOOTER REVIEWS */
+    .footer-review {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box {
+        width: 90%;
+        height: 50px;
+        padding: 20px;
+    }
+
+    /* COPYRIGHT CENTERING */
+    .copyright {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+}
+
