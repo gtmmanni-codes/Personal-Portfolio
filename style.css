@@ -30,7 +30,7 @@
 .main-heading{
     height: 17rem;
     align-content: center;
-    margin-left: 50%;
+    margin-left: 40%;
     font-size: x-large;
 
 }
@@ -46,4 +46,34 @@
 .hero-education{
     border: 2px solid black;
     width: 33%;
+}
+ul{
+    border: 1px solid black;
+}
+
+
+/**footer**/
+.footer-review{
+    display: flex;
+    height: 200px;
+    
+    
+    justify-content: space-evenly;
+    
+
+
+}
+
+.box{
+    
+    border: 2px solid black;
+    border-radius: 20%;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    
+    align-content: space-evenly;
+    
+    
+
 }
